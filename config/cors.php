@@ -6,9 +6,13 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['http://localhost:5173'],
+    'allowed_origins' => [
+        'https://ebetstream.com',
+        'https://www.ebetstream.com',
+        'http://localhost:5173'
+    ],
 
-    'allowed_origins_patterns' => ['https://ebetstream.com,https://www.ebetstream.com,http://localhost:5173'],
+    'allowed_origins_patterns' => [],
 
     'allowed_headers' => ['*'],
 
